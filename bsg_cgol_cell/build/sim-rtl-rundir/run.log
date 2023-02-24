@@ -1,6 +1,6 @@
 Chronologic VCS simulator copyright 1991-2020
 Contains Synopsys proprietary information.
-Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb 24 16:09 2023
+Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb 24 16:51 2023
 *Verdi* Loading libsscore_vcs202003.so
 FSDB Dumper for VCS, Release Verdi_Q-2020.03-SP2-8, Linux x86_64/64bit, 08/31/2021
 (C) 1996 - 2021 by Synopsys, Inc.
@@ -39,23 +39,23 @@ __________ ___________  _______________________________
 ### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              315000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000001111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              345000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              375000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000011111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              405000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              435000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              465000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              495000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1001111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              525000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              555000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1011111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              585000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b0100000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              615000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              645000 uptime=
@@ -71,15 +71,15 @@ __________ ___________  _______________________________
 ### bsg_fsb_node_trace_replay SEND          10'b1000000111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              795000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000001111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              825000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000011111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              855000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1000111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              885000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1001111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              915000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b1011111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              945000 uptime=
-### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ############################################################################
 ###### bsg_fsb_node_trace_replay FINISH (trace finished; CALLING $finish) (bsg_cgol_cell_tb.trace_replay)
 ############################################################################
@@ -87,5 +87,5 @@ $finish called from file "/home/kangll/basejump_stl/bsg_fsb/bsg_fsb_node_trace_r
 $finish at simulation time               975000
            V C S   S i m u l a t i o n   R e p o r t 
 Time: 975000 ps
-CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
-Fri Feb 24 16:09:32 2023
+CPU Time:      0.260 seconds;       Data structure size:   0.0Mb
+Fri Feb 24 16:51:30 2023

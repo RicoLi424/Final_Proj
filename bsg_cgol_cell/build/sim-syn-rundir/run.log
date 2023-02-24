@@ -1,6 +1,6 @@
 Chronologic VCS simulator copyright 1991-2020
 Contains Synopsys proprietary information.
-Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb 24 15:43 2023
+Compiler version Q-2020.03-SP1_Full64; Runtime version Q-2020.03-SP1_Full64;  Feb 24 16:52 2023
 Doing SDF annotation ...... Done
 bsg_cgol_cell_tb.clk_gen_1 with cycle_time_p       10000
 ## WARNING: bsg_fsb_node_trace_replay will be DEPRECATED soon; please discontinue use (bsg_cgol_cell_tb.trace_replay).
@@ -28,25 +28,65 @@ __________ ___________  _______________________________
 ### bsg_fsb_node_trace_replay SEND          10'b1001000100 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              135000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
 ### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              165000 uptime=
-### bsg_fsb_node_trace_replay SEND          10'b1000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              175000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
-### bsg_fsb_node_trace_replay SEND          10'b1000000001 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              195000 uptime=
+### bsg_fsb_node_trace_replay SEND          10'b1000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              195000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
-### bsg_fsb_node_trace_replay SEND          10'b1000000011 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              215000 uptime=
+### bsg_fsb_node_trace_replay SEND          10'b1000000001 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              225000 uptime=
 ### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
-### bsg_fsb_node_trace_replay SEND          10'b1000000111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              235000 uptime=
+### bsg_fsb_node_trace_replay SEND          10'b1000000011 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              255000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000000111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              285000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              315000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000001111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              345000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              375000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000011111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              405000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              435000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              465000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              495000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1001111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              525000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              555000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1011111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              585000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0100000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              615000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              645000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0100000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              675000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000000001 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              705000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b0100000000 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              735000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000000011 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              765000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000000111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              795000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 001 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000001111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              825000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000011111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              855000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1000111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              885000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1001111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              915000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
+### bsg_fsb_node_trace_replay SEND          10'b1011111111 (bsg_cgol_cell_tb.trace_replay.unnamed$$_0), time=              945000 uptime=
+### bsg_fsb_node_trace_replay RECEIVE matched 000 (bsg_cgol_cell_tb.trace_replay)
 ############################################################################
-### bsg_fsb_node_trace_replay RECEIVE unmatched (bsg_cgol_cell_tb.trace_replay) 
-###    
-### FAIL (trace mismatch) = 000
-###              expected = 001
-
-###              diff     = 001
-
+###### bsg_fsb_node_trace_replay FINISH (trace finished; CALLING $finish) (bsg_cgol_cell_tb.trace_replay)
 ############################################################################
-$finish called from file "/home/kangll/basejump_stl/bsg_fsb/bsg_fsb_node_trace_replay.v", line 207.
-$finish at simulation time               245000
+$finish called from file "/home/kangll/basejump_stl/bsg_fsb/bsg_fsb_node_trace_replay.v", line 225.
+$finish at simulation time               975000
            V C S   S i m u l a t i o n   R e p o r t 
-Time: 245000 ps
-CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
-Fri Feb 24 15:43:13 2023
+Time: 975000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Fri Feb 24 16:52:31 2023

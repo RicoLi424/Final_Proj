@@ -15,4 +15,3 @@ set_db port:bsg_cgol_cell/data_o .original_name {data_o}
 
 
 set_db pin:bsg_cgol_cell/data_o_reg/Q .original_name {data_o/q}
-set_db pin:bsg_cgol_cell/state_reg/Q .original_name {state/q}

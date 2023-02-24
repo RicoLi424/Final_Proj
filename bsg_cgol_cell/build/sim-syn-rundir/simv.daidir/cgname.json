@@ -17,11 +17,11 @@
         "module",
         3
     ],
-    "bsg_popcount_width_p4_11_mapped": [
-        "bsg_popcount_width_p4_11_mapped",
-        "v5WtC",
+    "bsg_popcount_width_p4_10_mapped": [
+        "bsg_popcount_width_p4_10_mapped",
+        "ZakST",
         "module",
-        4
+        33
     ],
     "bsg_popcount_width_p8_mapped": [
         "bsg_popcount_width_p8_mapped",
@@ -65,17 +65,17 @@
         "module",
         11
     ],
-    "sky130_fd_sc_hd__clkinv": [
-        "sky130_fd_sc_hd__clkinv",
-        "aACy1",
+    "sky130_fd_sc_hd__a21o": [
+        "sky130_fd_sc_hd__a21o",
+        "QBKah",
         "module",
-        12
+        34
     ],
-    "sky130_fd_sc_hd__clkinv_1": [
-        "sky130_fd_sc_hd__clkinv_1",
-        "BvwDe",
+    "sky130_fd_sc_hd__a21o_1": [
+        "sky130_fd_sc_hd__a21o_1",
+        "JqwPS",
         "module",
-        13
+        35
     ],
     "sky130_fd_sc_hd__dfxtp": [
         "sky130_fd_sc_hd__dfxtp",
@@ -113,18 +113,6 @@
         "module",
         19
     ],
-    "sky130_fd_sc_hd__inv": [
-        "sky130_fd_sc_hd__inv",
-        "vk6Yu",
-        "module",
-        20
-    ],
-    "sky130_fd_sc_hd__inv_2": [
-        "sky130_fd_sc_hd__inv_2",
-        "kE02k",
-        "module",
-        21
-    ],
     "sky130_fd_sc_hd__mux2i": [
         "sky130_fd_sc_hd__mux2i",
         "Hnugh",
@@ -137,17 +125,17 @@
         "module",
         23
     ],
-    "sky130_fd_sc_hd__o21ai": [
-        "sky130_fd_sc_hd__o21ai",
-        "c0sKR",
+    "sky130_fd_sc_hd__o32ai": [
+        "sky130_fd_sc_hd__o32ai",
+        "Q7gmW",
         "module",
-        24
+        36
     ],
-    "sky130_fd_sc_hd__o21ai_1": [
-        "sky130_fd_sc_hd__o21ai_1",
-        "SQuby",
+    "sky130_fd_sc_hd__o32ai_1": [
+        "sky130_fd_sc_hd__o32ai_1",
+        "uUnJg",
         "module",
-        25
+        37
     ],
     "sky130_fd_sc_hd__o211ai": [
         "sky130_fd_sc_hd__o211ai",
@@ -161,17 +149,17 @@
         "module",
         27
     ],
-    "sky130_fd_sc_hd__xnor2": [
-        "sky130_fd_sc_hd__xnor2",
-        "NsgIU",
+    "sky130_fd_sc_hd__xor2": [
+        "sky130_fd_sc_hd__xor2",
+        "J6Sty",
         "module",
-        28
+        38
     ],
-    "sky130_fd_sc_hd__xnor2_1": [
-        "sky130_fd_sc_hd__xnor2_1",
-        "Bjmp5",
+    "sky130_fd_sc_hd__xor2_1": [
+        "sky130_fd_sc_hd__xor2_1",
+        "Wy4JV",
         "module",
-        29
+        39
     ],
     "...MASTER...": [
         "SIM",

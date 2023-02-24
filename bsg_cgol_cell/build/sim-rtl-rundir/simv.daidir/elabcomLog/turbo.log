@@ -4,4 +4,4 @@ uname(Linux linux-lab-049.ece.uw.edu 3.10.0-1160.81.1.el7.x86_64 #1 SMP Fri Dec 
 [INFO] error/warning message 'C00381' has been suppressed.
 [INFO] error/warning message 'C00388' has been suppressed.
 [INFO] error/warning message 'C00389' has been suppressed.
-au time 0.263827 0.018786 0.012576 delta 94560256 94560256 total 199335936 199335936
+au time 0.143679 0.013448 0.018865 delta 94560256 94560256 total 199335936 199335936

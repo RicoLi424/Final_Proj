@@ -40,7 +40,8 @@ module bsg_cgol_cell (
       case (num_of_alive)
 	4'd0,4'd1: data_o <= 1'b0;
 	4'd2: data_o <= data_o;
-	default: data_o <= 1'b1;
+	4'd3: data_o <= 1'b1;
+        default: data_o <= 1'b0;
       endcase
     end
     else if(update_i) begin

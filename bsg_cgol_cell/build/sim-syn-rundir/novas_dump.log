@@ -244,8 +244,8 @@ FLEXLM_BORROWFILE=/homes/kangll/.linux-lab-049.ece.uw.edu-borrow.txt
 Runtime command line arguments:
 argv[0]=./simv
 244 profile - 100
-          CPU/Mem usage: 0.040 sys,  0.180 user,  281.72M mem
-245 Elapsed time:    0:00:03    Fri Feb 24 15:43:12 2023
+          CPU/Mem usage: 0.030 sys,  0.200 user,  281.72M mem
+245 Elapsed time:    0:00:01    Fri Feb 24 16:52:31 2023
 246 pliAppInit
 247 FSDB_GATE is set.
 248 FSDB_RTL is set.
@@ -272,42 +272,42 @@ argv[0]=./simv
 269 *Verdi* : Begin traversing the scopes, layer (0).
 270 *Verdi* : End of traversing.
 271 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.040 sys,  0.190 user,  381.39M mem
-                   incr: 0.000 sys,  0.000 user,  7.88M mem
-                   accu: 0.000 sys,  0.000 user,  7.88M mem
-              accu incr: 0.000 sys,  0.000 user,  7.88M mem
+          CPU/Mem usage: 0.040 sys,  0.210 user,  381.42M mem
+                   incr: 0.000 sys,  0.010 user,  7.92M mem
+                   accu: 0.000 sys,  0.010 user,  7.92M mem
+              accu incr: 0.000 sys,  0.010 user,  7.92M mem
 
-          Count usage: 87 var,  93 idcode,  52 callback
-                 incr: 87 var,  93 idcode,  52 callback
-                 accu: 87 var,  93 idcode,  52 callback
-            accu incr: 87 var,  93 idcode,  52 callback
-272 Elapsed time:    0:00:04    Fri Feb 24 15:43:13 2023
+          Count usage: 79 var,  85 idcode,  44 callback
+                 incr: 79 var,  85 idcode,  44 callback
+                 accu: 79 var,  85 idcode,  44 callback
+            accu incr: 79 var,  85 idcode,  44 callback
+272 Elapsed time:    0:00:01    Fri Feb 24 16:52:31 2023
 273 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.040 sys,  0.190 user,  382.44M mem
+          CPU/Mem usage: 0.040 sys,  0.210 user,  382.48M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.000 sys,  0.000 user,  8.93M mem
+                   accu: 0.000 sys,  0.010 user,  8.97M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
-          Count usage: 87 var,  93 idcode,  52 callback
+          Count usage: 79 var,  85 idcode,  44 callback
                  incr: 0 var,  0 idcode,  0 callback
-                 accu: 87 var,  93 idcode,  52 callback
+                 accu: 79 var,  85 idcode,  44 callback
             accu incr: 0 var,  0 idcode,  0 callback
-274 Elapsed time:    0:00:04    Fri Feb 24 15:43:13 2023
-275 End of simulation at 245000
-276 Elapsed time:    0:00:04    Fri Feb 24 15:43:13 2023
+274 Elapsed time:    0:00:01    Fri Feb 24 16:52:31 2023
+275 End of simulation at 975000
+276 Elapsed time:    0:00:01    Fri Feb 24 16:52:31 2023
 277 Begin FSDB profile info:
-278 FSDB Writer : bc1(260) bcn(41) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.003224) io wait(0.000000) theadpool wait(0.000000)
+278 FSDB Writer : bc1(846) bcn(161) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.003205) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 279 End FSDB profile info
 280 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
-281                      - BlockUsed:1 Acquire:360 BufferUsed:4262
+281                      - BlockUsed:1 Acquire:1362 BufferUsed:16136
 282                      - Flush:3 Expand:0 ProducerWait:0 ConsumerWait:0
-283                      - MainProducerTime:0.246377581 TotalConsumerTime:0.000000000
-284                      - ElapsedTime:0.195080000
-285 Producer   0 profile - BlockUsed:1 Acquire:360 BufferUsed:4262
+283                      - MainProducerTime:0.260920349 TotalConsumerTime:0.000000000
+284                      - ElapsedTime:0.272180000
+285 Producer   0 profile - BlockUsed:1 Acquire:1362 BufferUsed:16136
 286 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
-287                      - BlockUsed:1 Acquire:360 BufferUsed:4262
+287                      - BlockUsed:1 Acquire:1362 BufferUsed:16136
 288 SimExit
-289 Elapsed time:    0:00:04    Fri Feb 24 15:43:13 2023
+289 Elapsed time:    0:00:01    Fri Feb 24 16:52:31 2023
 290 Sim process exit

@@ -59,8 +59,8 @@
 0010__000000000_0
 # Enable, 8 neighbors = 8'b00001111
 0001__1_0_00001111
-# Recv 1, a dead cell with 4 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a dead cell with 4 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 7
 # Update, value = 0
@@ -69,8 +69,8 @@
 0010__000000000_0
 # Enable, 8 neighbors = 8'b00011111
 0001__1_0_00011111
-# Recv 1, a dead cell with 5 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a dead cell with 5 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 8
 # Update, value = 0
@@ -79,8 +79,8 @@
 0010__000000000_0
 # Enable, 8 neighbors = 8'b00111111
 0001__1_0_00111111
-# Recv 1, a dead cell with 6 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a dead cell with 6 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 9
 # Update, value = 0
@@ -89,8 +89,8 @@
 0010__000000000_0
 # Enable, 8 neighbors = 8'b01111111
 0001__1_0_01111111
-# Recv 1, a dead cell with 7 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a dead cell with 7 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 10
 # Update, value = 0
@@ -99,8 +99,8 @@
 0010__000000000_0
 # Enable, 8 neighbors = 8'b11111111
 0001__1_0_11111111
-# Recv 1, a dead cell with 8 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a dead cell with 8 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 11
 # Update, value = 1
@@ -143,32 +143,32 @@
 # CASE 16
 # Enable, 8 neighbors = 8'b00001111
 0001__1_0_00001111
-# Recv 1, a live cell with 4 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a live cell with 4 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 17
 # Enable, 8 neighbors = 8'b00011111
 0001__1_0_00011111
-# Recv 1, a live cell with 5 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a live cell with 5 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 18
 # Enable, 8 neighbors = 8'b00111111
 0001__1_0_00111111
-# Recv 1, a live cell with 6 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a live cell with 6 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 19
 # Enable, 8 neighbors = 8'b01111111
 0001__1_0_01111111
-# Recv 1, a live cell with 7 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a live cell with 7 live neighbours dies to the next generation.
+0010__000000000_0
 
 # CASE 20
 # Enable, 8 neighbors = 8'b11111111
 0001__1_0_11111111
-# Recv 1, a live cell with 8 live neighbours lives to the next generation.
-0010__000000000_1
+# Recv 0, a live cell with 8 live neighbours dies to the next generation.
+0010__000000000_0
 
 
 

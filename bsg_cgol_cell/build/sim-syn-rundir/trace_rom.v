@@ -27,132 +27,132 @@ always_comb case(addr_i)
                                  // # Update, value = 0
          4: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
                                  // # Recv 0, dead cell
-                                 // #0010__000000000_0
+         5: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 2
                                  // # Enable, 8 neighbors = 8'b00000000
-         5: data_o = width_p ' (14'b0001__1_0_00000000); // 0x0600
+         6: data_o = width_p ' (14'b0001__1_0_00000000); // 0x0600
                                  // # Recv 0, a dead cell with 0 live neighbours dies to the next generation.
-         6: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+         7: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 3
                                  // # Enable, 8 neighbors = 8'b00000001
-         7: data_o = width_p ' (14'b0001__1_0_00000001); // 0x0601
+         8: data_o = width_p ' (14'b0001__1_0_00000001); // 0x0601
                                  // # Recv 0, a dead cell with 1 live neighbours dies to the next generation.
-         8: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+         9: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 4
                                  // # Enable, 8 neighbors = 8'b00000011
-         9: data_o = width_p ' (14'b0001__1_0_00000011); // 0x0603
+        10: data_o = width_p ' (14'b0001__1_0_00000011); // 0x0603
                                  // # Recv 0, a dead cell with 2 live neighbours dies to the next generation.
-        10: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        11: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 5
                                  // # Enable, 8 neighbors = 8'b00000111
-        11: data_o = width_p ' (14'b0001__1_0_00000111); // 0x0607
+        12: data_o = width_p ' (14'b0001__1_0_00000111); // 0x0607
                                  // # Recv 1, a dead cell with 3 live neighbours lives to the next generation.
-        12: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        13: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
                                  // # CASE 6
                                  // # Update, value = 0
-        13: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
+        14: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
                                  // # Recv 0, dead cell
-        14: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        15: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # Enable, 8 neighbors = 8'b00001111
-        15: data_o = width_p ' (14'b0001__1_0_00001111); // 0x060F
-                                 // # Recv 1, a dead cell with 4 live neighbours lives to the next generation.
-        16: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        16: data_o = width_p ' (14'b0001__1_0_00001111); // 0x060F
+                                 // # Recv 0, a dead cell with 4 live neighbours dies to the next generation.
+        17: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 7
                                  // # Update, value = 0
-        17: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
+        18: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
                                  // # Recv 0, dead cell
-        18: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        19: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # Enable, 8 neighbors = 8'b00011111
-        19: data_o = width_p ' (14'b0001__1_0_00011111); // 0x061F
-                                 // # Recv 1, a dead cell with 5 live neighbours lives to the next generation.
-        20: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        20: data_o = width_p ' (14'b0001__1_0_00011111); // 0x061F
+                                 // # Recv 0, a dead cell with 5 live neighbours dies to the next generation.
+        21: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 8
                                  // # Update, value = 0
-        21: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
+        22: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
                                  // # Recv 0, dead cell
-        22: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        23: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # Enable, 8 neighbors = 8'b00111111
-        23: data_o = width_p ' (14'b0001__1_0_00111111); // 0x063F
-                                 // # Recv 1, a dead cell with 6 live neighbours lives to the next generation.
-        24: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        24: data_o = width_p ' (14'b0001__1_0_00111111); // 0x063F
+                                 // # Recv 0, a dead cell with 6 live neighbours dies to the next generation.
+        25: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 9
                                  // # Update, value = 0
-        25: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
+        26: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
                                  // # Recv 0, dead cell
-        26: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        27: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # Enable, 8 neighbors = 8'b01111111
-        27: data_o = width_p ' (14'b0001__1_0_01111111); // 0x067F
-                                 // # Recv 1, a dead cell with 7 live neighbours lives to the next generation.
-        28: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        28: data_o = width_p ' (14'b0001__1_0_01111111); // 0x067F
+                                 // # Recv 0, a dead cell with 7 live neighbours dies to the next generation.
+        29: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 10
                                  // # Update, value = 0
-        29: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
+        30: data_o = width_p ' (14'b0001__0_0_00000000); // 0x0400
                                  // # Recv 0, dead cell
-        30: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        31: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # Enable, 8 neighbors = 8'b11111111
-        31: data_o = width_p ' (14'b0001__1_0_11111111); // 0x06FF
-                                 // # Recv 1, a dead cell with 8 live neighbours lives to the next generation.
-        32: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        32: data_o = width_p ' (14'b0001__1_0_11111111); // 0x06FF
+                                 // # Recv 0, a dead cell with 8 live neighbours dies to the next generation.
+        33: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 11
                                  // # Update, value = 1
-        33: data_o = width_p ' (14'b0001__0_1_00000000); // 0x0500
+        34: data_o = width_p ' (14'b0001__0_1_00000000); // 0x0500
                                  // # Recv 1, live cell
-        34: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        35: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
                                  // # CASE 12
                                  // # Enable, 8 neighbors = 8'b00000000
-        35: data_o = width_p ' (14'b0001__1_0_00000000); // 0x0600
+        36: data_o = width_p ' (14'b0001__1_0_00000000); // 0x0600
                                  // # Recv 0, a live cell with 0 live neighbours dies to the next generation.
-        36: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        37: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 13
                                  // # Update, value = 1
-        37: data_o = width_p ' (14'b0001__0_1_00000000); // 0x0500
+        38: data_o = width_p ' (14'b0001__0_1_00000000); // 0x0500
                                  // # Recv 1, live cell
-        38: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        39: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
                                  // # Enable, 8 neighbors = 8'b00000001
-        39: data_o = width_p ' (14'b0001__1_0_00000001); // 0x0601
+        40: data_o = width_p ' (14'b0001__1_0_00000001); // 0x0601
                                  // # Recv 0, a live cell with 1 live neighbours dies to the next generation.
-        40: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
+        41: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 14
                                  // # Update, value = 1
-        41: data_o = width_p ' (14'b0001__0_1_00000000); // 0x0500
+        42: data_o = width_p ' (14'b0001__0_1_00000000); // 0x0500
                                  // # Recv 1, live cell
-        42: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        43: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
                                  // # Enable, 8 neighbors = 8'b00000011
-        43: data_o = width_p ' (14'b0001__1_0_00000011); // 0x0603
+        44: data_o = width_p ' (14'b0001__1_0_00000011); // 0x0603
                                  // # Recv 1, a live cell with 2 live neighbours lives to the next generation.
-        44: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        45: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
                                  // # CASE 15
                                  // # Enable, 8 neighbors = 8'b00000111
-        45: data_o = width_p ' (14'b0001__1_0_00000111); // 0x0607
+        46: data_o = width_p ' (14'b0001__1_0_00000111); // 0x0607
                                  // # Recv 1, a live cell with 3 live neighbours lives to the next generation.
-        46: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        47: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
                                  // # CASE 16
                                  // # Enable, 8 neighbors = 8'b00001111
-        47: data_o = width_p ' (14'b0001__1_0_00001111); // 0x060F
-                                 // # Recv 1, a live cell with 4 live neighbours lives to the next generation.
-        48: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        48: data_o = width_p ' (14'b0001__1_0_00001111); // 0x060F
+                                 // # Recv 0, a live cell with 4 live neighbours dies to the next generation.
+        49: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 17
                                  // # Enable, 8 neighbors = 8'b00011111
-        49: data_o = width_p ' (14'b0001__1_0_00011111); // 0x061F
-                                 // # Recv 1, a live cell with 5 live neighbours lives to the next generation.
-        50: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        50: data_o = width_p ' (14'b0001__1_0_00011111); // 0x061F
+                                 // # Recv 0, a live cell with 5 live neighbours dies to the next generation.
+        51: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 18
                                  // # Enable, 8 neighbors = 8'b00111111
-        51: data_o = width_p ' (14'b0001__1_0_00111111); // 0x063F
-                                 // # Recv 1, a live cell with 6 live neighbours lives to the next generation.
-        52: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        52: data_o = width_p ' (14'b0001__1_0_00111111); // 0x063F
+                                 // # Recv 0, a live cell with 6 live neighbours dies to the next generation.
+        53: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 19
                                  // # Enable, 8 neighbors = 8'b01111111
-        53: data_o = width_p ' (14'b0001__1_0_01111111); // 0x067F
-                                 // # Recv 1, a live cell with 7 live neighbours lives to the next generation.
-        54: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        54: data_o = width_p ' (14'b0001__1_0_01111111); // 0x067F
+                                 // # Recv 0, a live cell with 7 live neighbours dies to the next generation.
+        55: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # CASE 20
                                  // # Enable, 8 neighbors = 8'b11111111
-        55: data_o = width_p ' (14'b0001__1_0_11111111); // 0x06FF
-                                 // # Recv 1, a live cell with 8 live neighbours lives to the next generation.
-        56: data_o = width_p ' (14'b0010__000000000_1); // 0x0801
+        56: data_o = width_p ' (14'b0001__1_0_11111111); // 0x06FF
+                                 // # Recv 0, a live cell with 8 live neighbours dies to the next generation.
+        57: data_o = width_p ' (14'b0010__000000000_0); // 0x0800
                                  // # Finish simulation
-        57: data_o = width_p ' (14'b0100__0_0_00000000); // 0x1000
+        58: data_o = width_p ' (14'b0100__0_0_00000000); // 0x1000
    default: data_o = 'X;
 endcase
 endmodule

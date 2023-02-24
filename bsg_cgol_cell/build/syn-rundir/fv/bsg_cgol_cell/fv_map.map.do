@@ -23,7 +23,6 @@ add mapped point data_o data_o -type PO PO
 
 //Sequential Pins
 add mapped point data_o/q data_o_reg/Q  -type DFF DFF
-add mapped point state/q state_reg/Q  -type DFF DFF
 
 
 

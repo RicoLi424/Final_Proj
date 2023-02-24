@@ -234,8 +234,8 @@ FLEXLM_BORROWFILE=/homes/kangll/.linux-lab-049.ece.uw.edu-borrow.txt
 Runtime command line arguments:
 argv[0]=./simv
 234 profile - 100
-          CPU/Mem usage: 0.030 sys,  0.180 user,  283.68M mem
-235 Elapsed time:    0:00:01    Fri Feb 24 16:09:32 2023
+          CPU/Mem usage: 0.040 sys,  0.200 user,  283.68M mem
+235 Elapsed time:    0:00:02    Fri Feb 24 16:51:30 2023
 236 pliAppInit
 237 FSDB_GATE is set.
 238 FSDB_RTL is set.
@@ -262,42 +262,42 @@ argv[0]=./simv
 259 *Verdi* : Begin traversing the scopes, layer (0).
 260 *Verdi* : End of traversing.
 261 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.040 sys,  0.190 user,  383.09M mem
-                   incr: 0.000 sys,  0.010 user,  7.68M mem
-                   accu: 0.000 sys,  0.010 user,  7.68M mem
-              accu incr: 0.000 sys,  0.010 user,  7.68M mem
+          CPU/Mem usage: 0.050 sys,  0.200 user,  383.09M mem
+                   incr: 0.010 sys,  0.000 user,  7.68M mem
+                   accu: 0.010 sys,  0.000 user,  7.68M mem
+              accu incr: 0.010 sys,  0.000 user,  7.68M mem
 
           Count usage: 68 var,  65 idcode,  18 callback
                  incr: 68 var,  65 idcode,  18 callback
                  accu: 68 var,  65 idcode,  18 callback
             accu incr: 68 var,  65 idcode,  18 callback
-262 Elapsed time:    0:00:01    Fri Feb 24 16:09:32 2023
+262 Elapsed time:    0:00:02    Fri Feb 24 16:51:30 2023
 263 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.040 sys,  0.190 user,  384.28M mem
+          CPU/Mem usage: 0.050 sys,  0.200 user,  384.28M mem
                    incr: 0.000 sys,  0.000 user,  1.19M mem
-                   accu: 0.000 sys,  0.010 user,  8.87M mem
+                   accu: 0.010 sys,  0.000 user,  8.87M mem
               accu incr: 0.000 sys,  0.000 user,  1.19M mem
 
           Count usage: 68 var,  65 idcode,  18 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 68 var,  65 idcode,  18 callback
             accu incr: 0 var,  0 idcode,  0 callback
-264 Elapsed time:    0:00:01    Fri Feb 24 16:09:32 2023
+264 Elapsed time:    0:00:02    Fri Feb 24 16:51:30 2023
 265 End of simulation at 975000
-266 Elapsed time:    0:00:01    Fri Feb 24 16:09:32 2023
+266 Elapsed time:    0:00:02    Fri Feb 24 16:51:30 2023
 267 Begin FSDB profile info:
-268 FSDB Writer : bc1(414) bcn(168) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.003173) io wait(0.000000) theadpool wait(0.000000)
+268 FSDB Writer : bc1(407) bcn(161) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.003251) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 269 End FSDB profile info
 270 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
-271                      - BlockUsed:1 Acquire:759 BufferUsed:9330
+271                      - BlockUsed:1 Acquire:745 BufferUsed:9155
 272                      - Flush:3 Expand:0 ProducerWait:0 ConsumerWait:0
-273                      - MainProducerTime:0.235837472 TotalConsumerTime:0.000000000
-274                      - ElapsedTime:0.098133000
-275 Producer   0 profile - BlockUsed:1 Acquire:759 BufferUsed:9330
+273                      - MainProducerTime:0.265764264 TotalConsumerTime:0.000000000
+274                      - ElapsedTime:0.103468000
+275 Producer   0 profile - BlockUsed:1 Acquire:745 BufferUsed:9155
 276 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
-277                      - BlockUsed:1 Acquire:759 BufferUsed:9330
+277                      - BlockUsed:1 Acquire:745 BufferUsed:9155
 278 SimExit
-279 Elapsed time:    0:00:01    Fri Feb 24 16:09:32 2023
+279 Elapsed time:    0:00:02    Fri Feb 24 16:51:30 2023
 280 Sim process exit
