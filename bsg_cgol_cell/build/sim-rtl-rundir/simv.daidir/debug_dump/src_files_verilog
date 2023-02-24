@@ -1,8 +1,0 @@
-/home/kangll/basejump_stl/bsg_fsb/bsg_fsb_node_trace_replay.v
-/home/kangll/basejump_stl/bsg_misc/bsg_defines.v
-/home/kangll/basejump_stl/bsg_misc/bsg_popcount.v
-/home/kangll/basejump_stl/bsg_test/bsg_nonsynth_clock_gen.v
-/home/kangll/basejump_stl/bsg_test/bsg_nonsynth_reset_gen.v
-/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/sim-rtl-rundir/trace_rom.v
-/home/kangll/ee477-designs-final-project/bsg_cgol_cell/v/bsg_cgol_cell.v
-/home/kangll/ee477-designs-final-project/bsg_cgol_cell/v/bsg_cgol_cell_tb.v
