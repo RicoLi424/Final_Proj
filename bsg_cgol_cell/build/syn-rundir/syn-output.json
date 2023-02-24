@@ -1,0 +1,16 @@
+{
+    "vlsi.builtins.is_complete": false,
+    "synthesis.outputs.output_files": [
+        "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/syn-rundir/bsg_cgol_cell.mapped.v"
+    ],
+    "synthesis.inputs.input_files": [
+        "v/bsg_cgol_cell.v",
+        "/home/kangll/basejump_stl/bsg_misc/bsg_popcount.v",
+        "/home/kangll/basejump_stl/bsg_misc/bsg_defines.v"
+    ],
+    "synthesis.inputs.top_module": "bsg_cgol_cell",
+    "synthesis.outputs.sdc": "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/syn-rundir/bsg_cgol_cell.mapped.sdc",
+    "synthesis.outputs.seq_cells": "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/syn-rundir/find_regs_cells.json",
+    "synthesis.outputs.all_regs": "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/syn-rundir/find_regs_paths.json",
+    "synthesis.outputs.sdf_file": "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/syn-rundir/bsg_cgol_cell.mapped.sdf"
+}

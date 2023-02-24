@@ -1,0 +1,251 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 155648 bytes [need 152K bytes if disable swap]
+
+used block: 5 [memory(5) file(0)]
+                 [ 8K(3) 64K(2) { total 152K bytes } ]
+overhead: (9538) bytes for (5) blocks [Average: (1907) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 2(times) 16K(bytes) [3K bytes compressed data from file]
+access => 107241(times) 845M(bytes)
+          [hit ratio: 99.9981%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog)
+used swap file number: (3)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (4)
+closeHead: (1)
+closeTail: (3)
+openCnt: (1)
+fid(3): fd(0) fileName(NULL)
+	mode(rb)	hot(1) cool(0) pos(0)
+fid(2): fd(26) fileName(/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog/_swap_0001#-1626721824#11424)
+	size(0) lastModTime(0) curModTime(1677234295)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(rb)	hot(2) cool(3) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Fri Feb 24 10:30:05 2023
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 229376 bytes [need 152K bytes if disable swap]
+
+used block: 7 [memory(7) file(0)]
+                 [ 8K(4) 64K(3) { total 224K bytes } ]
+overhead: (9538) bytes for (7) blocks [Average: (1362) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 3(times) 20K(bytes) [5K bytes compressed data from file]
+access => 132005(times) 1042M(bytes)
+          [hit ratio: 99.9977%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog)
+used swap file number: (4)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (6)
+closeHead: (4)
+closeTail: (5)
+openCnt: (1)
+fid(5): fd(34) fileName(/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog/_swap_0001#-1626721824#11424)
+	size(0) lastModTime(0) curModTime(1677234605)
+	mode(w+b)	hot(0) cool(4) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(rb)	hot(5) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Fri Feb 24 10:35:50 2023
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 458752 bytes [need 224K bytes if disable swap]
+
+used block: 14 [memory(14) file(0)]
+                 [ 8K(8) 64K(6) { total 448K bytes } ]
+overhead: (9538) bytes for (14) blocks [Average: (681) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 6(times) 77K(bytes) [14K bytes compressed data from file]
+access => 231966(times) 1833M(bytes)
+          [hit ratio: 99.9974%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog)
+used swap file number: (10)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (11)
+closeHead: (6)
+closeTail: (10)
+openCnt: (1)
+fid(10): fd(0) fileName(NULL)
+	mode(rb)	hot(9) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(rb)	hot(8) cool(10) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(rb)	hot(6) cool(9) pos(0)
+fid(7): fd(33) fileName(/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog/_swap_0001#-1626721824#11424)
+	size(0) lastModTime(0) curModTime(1677234951)
+	mode(w+b)	hot(8) cool(6) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(rb)	hot(7) cool(8) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Fri Feb 24 11:07:08 2023
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 540672 bytes [need 224K bytes if disable swap]
+
+used block: 17 [memory(17) file(0)]
+                 [ 8K(10) 64K(7) { total 528K bytes } ]
+overhead: (9538) bytes for (17) blocks [Average: (561) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 7(times) 104K(bytes) [17K bytes compressed data from file]
+access => 264176(times) 2088M(bytes)
+          [hit ratio: 99.9974%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog)
+used swap file number: (11)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (13)
+closeHead: (11)
+closeTail: (12)
+openCnt: (1)
+fid(12): fd(32) fileName(/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog/_swap_0001#-1626721824#11424)
+	size(0) lastModTime(0) curModTime(1677236828)
+	mode(w+b)	hot(0) cool(11) pos(0)
+fid(11): fd(0) fileName(NULL)
+	mode(rb)	hot(12) cool(0) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+Swap system is reset at (Fri Feb 24 11:34:22 2023
+)
+version: (200506)
+
+available memory: 64M bytes
+used memory: 622592 bytes [need 224K bytes if disable swap]
+
+used block: 20 [memory(20) file(0)]
+                 [ 8K(12) 64K(8) { total 608K bytes } ]
+overhead: (9538) bytes for (20) blocks [Average: (476) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 8(times) 130K(bytes) [20K bytes compressed data from file]
+access => 295336(times) 2334M(bytes)
+          [hit ratio: 99.9973%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog)
+used swap file number: (13)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (15)
+closeHead: (13)
+closeTail: (14)
+openCnt: (2)
+fid(14): fd(32) fileName(/home/kangll/ee477-designs-final-project/bsg_cgol_cell/verdiLog/_swap_0001#-1626721824#11424)
+	size(0) lastModTime(0) curModTime(1677238462)
+	mode(w+b)	hot(0) cool(13) pos(0)
+fid(13): fd(1073741824) fileName(/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/sim-rtl-rundir/simv.daidir/kdb.elab++/work.lib++/trace_rom.v.tdc)
+	size(5281) lastModTime(1677238439) curModTime(1677238439)
+	mode(rb)	hot(14) cool(0) pos(0)
+fid(12): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(11): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(10): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(9): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(8): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(7): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(6): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(5): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(4): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(3): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(2): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(1): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(163492b0) pre(17e7e9e0) next(0)
+version(200506)
+date(May 19 2020 02:48:24)

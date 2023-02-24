@@ -1,0 +1,194 @@
+{
+    "SdfDummyMod": [
+        "SdfDummyMod",
+        "hsqE0",
+        "module",
+        1
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        2
+    ],
+    "bsg_popcount_width_p4_mapped": [
+        "bsg_popcount_width_p4_mapped",
+        "ADnBm",
+        "module",
+        3
+    ],
+    "bsg_popcount_width_p4_11_mapped": [
+        "bsg_popcount_width_p4_11_mapped",
+        "v5WtC",
+        "module",
+        4
+    ],
+    "bsg_popcount_width_p8_mapped": [
+        "bsg_popcount_width_p8_mapped",
+        "rtwZx",
+        "module",
+        5
+    ],
+    "bsg_cgol_cell": [
+        "bsg_cgol_cell",
+        "ryI47",
+        "module",
+        6
+    ],
+    "bsg_cgol_cell_tb": [
+        "bsg_cgol_cell_tb",
+        "xhQyE",
+        "module",
+        7
+    ],
+    "bsg_nonsynth_clock_gen": [
+        "bsg_nonsynth_clock_gen",
+        "qYCc4",
+        "module",
+        8
+    ],
+    "bsg_nonsynth_reset_gen_0000": [
+        "bsg_nonsynth_reset_gen_0000",
+        "NWavR",
+        "module",
+        9
+    ],
+    "bsg_fsb_node_trace_replay": [
+        "bsg_fsb_node_trace_replay",
+        "Jmueg",
+        "module",
+        10
+    ],
+    "trace_rom": [
+        "trace_rom",
+        "EZQhu",
+        "module",
+        11
+    ],
+    "sky130_fd_sc_hd__clkinv": [
+        "sky130_fd_sc_hd__clkinv",
+        "aACy1",
+        "module",
+        12
+    ],
+    "sky130_fd_sc_hd__clkinv_1": [
+        "sky130_fd_sc_hd__clkinv_1",
+        "BvwDe",
+        "module",
+        13
+    ],
+    "sky130_fd_sc_hd__dfxtp": [
+        "sky130_fd_sc_hd__dfxtp",
+        "T0ma9",
+        "module",
+        14
+    ],
+    "sky130_fd_sc_hd__dfxtp_1": [
+        "sky130_fd_sc_hd__dfxtp_1",
+        "ushg8",
+        "module",
+        15
+    ],
+    "sky130_fd_sc_hd__fa": [
+        "sky130_fd_sc_hd__fa",
+        "MH51c",
+        "module",
+        16
+    ],
+    "sky130_fd_sc_hd__fa_1": [
+        "sky130_fd_sc_hd__fa_1",
+        "KQ0V5",
+        "module",
+        17
+    ],
+    "sky130_fd_sc_hd__ha": [
+        "sky130_fd_sc_hd__ha",
+        "dFAd3",
+        "module",
+        18
+    ],
+    "sky130_fd_sc_hd__ha_1": [
+        "sky130_fd_sc_hd__ha_1",
+        "ZqeTk",
+        "module",
+        19
+    ],
+    "sky130_fd_sc_hd__inv": [
+        "sky130_fd_sc_hd__inv",
+        "vk6Yu",
+        "module",
+        20
+    ],
+    "sky130_fd_sc_hd__inv_2": [
+        "sky130_fd_sc_hd__inv_2",
+        "kE02k",
+        "module",
+        21
+    ],
+    "sky130_fd_sc_hd__mux2i": [
+        "sky130_fd_sc_hd__mux2i",
+        "Hnugh",
+        "module",
+        22
+    ],
+    "sky130_fd_sc_hd__mux2i_1": [
+        "sky130_fd_sc_hd__mux2i_1",
+        "t0cUh",
+        "module",
+        23
+    ],
+    "sky130_fd_sc_hd__o21ai": [
+        "sky130_fd_sc_hd__o21ai",
+        "c0sKR",
+        "module",
+        24
+    ],
+    "sky130_fd_sc_hd__o21ai_1": [
+        "sky130_fd_sc_hd__o21ai_1",
+        "SQuby",
+        "module",
+        25
+    ],
+    "sky130_fd_sc_hd__o211ai": [
+        "sky130_fd_sc_hd__o211ai",
+        "TnQW4",
+        "module",
+        26
+    ],
+    "sky130_fd_sc_hd__o211ai_1": [
+        "sky130_fd_sc_hd__o211ai_1",
+        "iqTgd",
+        "module",
+        27
+    ],
+    "sky130_fd_sc_hd__xnor2": [
+        "sky130_fd_sc_hd__xnor2",
+        "NsgIU",
+        "module",
+        28
+    ],
+    "sky130_fd_sc_hd__xnor2_1": [
+        "sky130_fd_sc_hd__xnor2_1",
+        "Bjmp5",
+        "module",
+        29
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        30
+    ],
+    "sky130_fd_sc_hd__udp_dff$P": [
+        "sky130_fd_sc_hd__udp_dff0x24P",
+        "wizTW",
+        "udp",
+        31
+    ],
+    "sky130_fd_sc_hd__udp_mux_2to1_N": [
+        "sky130_fd_sc_hd__udp_mux_2to1_N",
+        "bNnRR",
+        "udp",
+        32
+    ]
+}

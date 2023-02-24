@@ -1,0 +1,10 @@
+[
+  {
+    "path": "data_o_reg",
+    "pin": "Q"
+  },
+  {
+    "path": "state_reg",
+    "pin": "Q"
+  }
+]

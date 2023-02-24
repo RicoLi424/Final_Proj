@@ -1,0 +1,67 @@
+Command Line: /home/projects/ee477.2023wtr/cad/synopsys/verdi/Q-2020.03-SP2-8/platform/LINUXAMD64/bin/Novas -full64 -ssf /home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/sim-rtl-rundir/waveform.fsdb
+uname(Linux linux-lab-049.ece.uw.edu 3.10.0-1160.81.1.el7.x86_64 #1 SMP Fri Dec 16 17:29:43 UTC 2022 x86_64)
+type= DS_SIGNAL element= 8 field= 2
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG clk_i
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG en_i
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG data_i[7:0]
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG data_o
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG update_i
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG update_val_i
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG num_of_alive[3:0]
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG DUT
+VERILOG state
+-----
+second field= signal
+type= DS_STRING
+clk_i en_i data_i[7:0] data_o update_i update_val_i num_of_alive[3:0] state
+type= DS_SIGNAL element= 1 field= 2
+VERILOG bsg_cgol_cell_tb
+VERILOG trace_replay
+VERILOG data_i[9:0]
+-----
+second field= signal
+type= DS_STRING
+data_i[9:0]
+type= DS_SIGNAL element= 2 field= 2
+VERILOG bsg_cgol_cell_tb
+VERILOG ROM
+VERILOG addr_i[31:0]
+-----
+second field= signal
+VERILOG bsg_cgol_cell_tb
+VERILOG ROM
+VERILOG data_o[13:0]
+-----
+second field= signal
+type= DS_STRING
+addr_i[31:0] data_o[13:0]
+au time 4547.491126 42.729559 38.824033 delta 322826240 322826240 total 787283968 787283968

@@ -1,0 +1,50 @@
+simSetSimulator "-vcssv" -exec \
+           "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/sim-rtl-rundir/simv" \
+           -args
+debImport "-full64" "-dbdir" \
+          "/home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/sim-rtl-rundir/simv.daidir"
+debLoadSimResult \
+           /home/kangll/ee477-designs-final-project/bsg_cgol_cell/build/sim-rtl-rundir/waveform.fsdb
+wvCreateWindow
+srcHBSelect "bsg_cgol_cell_tb.DUT" -win $_nTrace1
+srcHBSelect "bsg_cgol_cell_tb.DUT" -win $_nTrace1
+srcSetScope -win $_nTrace1 "bsg_cgol_cell_tb.DUT" -delim "."
+srcHBSelect "bsg_cgol_cell_tb.DUT" -win $_nTrace1
+srcSignalViewSelect "bsg_cgol_cell_tb.DUT.state"
+srcSignalViewSelect "bsg_cgol_cell_tb.DUT.clk_i" "bsg_cgol_cell_tb.DUT.en_i" \
+           "bsg_cgol_cell_tb.DUT.data_i\[7:0\]" \
+           "bsg_cgol_cell_tb.DUT.update_i" "bsg_cgol_cell_tb.DUT.update_val_i" \
+           "bsg_cgol_cell_tb.DUT.data_o" \
+           "bsg_cgol_cell_tb.DUT.num_bit_1\[3:0\]" \
+           "bsg_cgol_cell_tb.DUT.state"
+srcSignalViewAddSelectedToWave -win $_nTrace1 -clipboard
+wvDrop -win $_nWave2
+wvSetCursor -win $_nWave2 10299.599750 -snap {("G1" 5)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 128353.377111 -snap {("G1" 8)}
+wvSetCursor -win $_nWave2 115234.115072 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 110240.963102 -snap {("G1" 4)}
+wvSetCursor -win $_nWave2 115136.210131 -snap {("G1" 5)}
+wvSetCursor -win $_nWave2 115723.639775 -snap {("G1" 6)}
+wvSetCursor -win $_nWave2 120031.457161 -snap {("G1" 6)}
+wvSetCursor -win $_nWave2 120325.171982 -snap {("G1" 0)}
+wvSetCursor -win $_nWave2 120129.362101 -snap {("G1" 1)}
+wvSetCursor -win $_nWave2 125318.323952 -snap {("G1" 1)}
+debReload
+srcHBSelect "bsg_cgol_cell_tb.DUT" -win $_nTrace1
+wvSetCursor -win $_nWave2 23007.661038 -snap {("G2" 0)}
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 153916.041276 -snap {("G1" 3)}
+wvZoomOut -win $_nWave2
+wvSetCursor -win $_nWave2 113411.819887 -snap {("G1" 5)}
+debExit
