@@ -3,8 +3,8 @@
 
 # This needs to match the parameters of the DUT instantiated in the testbench
 board: 
-  width: 32
-  max_length: 1000
+  width: 3  
+  max_length: 1
 
 display:
   # RGB color of 'dead' spaces in the display
