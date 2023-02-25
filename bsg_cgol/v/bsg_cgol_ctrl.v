@@ -29,17 +29,41 @@ module bsg_cgol_ctrl #(
 
   state_e  state_n, state_r;
 
-  logic overflow; 
-  logic [game_len_width_lp-1:0] cnt_unused;
+  //logic overflow; 
+  //logic [game_len_width_lp-1:0] cnt_unused;
   logic start_cnt;
+
+  logic [game_len_width_lp-1:0] max;
+
+  always_ff @(posedge clk_i) begin
+    if(v_i) begin
+      max <= frames_i;
+    end
+  end
   
   assign start_cnt = state_r == eBUSY;
 
   assign ready_o = state_r == eWAIT;
   assign     v_o = state_r == eDONE;
 
-  bsg_counter_dynamic_limit_en #(.width_p(game_len_width_lp))
+  logic cnt;
+  always_ff @(posedge clk_i)
+    begin
+      if(reset_i) begin
+        cnt <= 1'b0;
+      end
+      else if(start_cnt) begin
+        if(cnt == max) begin
+          cnt <= 1'b0;
+        end
+        else begin
+          cnt <= cnt + 1'b1;
+        end
+      end
+    end
 
+/*
+  bsg_counter_dynamic_limit_en #(.width_p(game_len_width_lp)) counter
             ( .clk_i(clk_i)
             , .reset_i(reset_i)
             , .en_i(start_cnt)
@@ -47,19 +71,21 @@ module bsg_cgol_ctrl #(
             , .counter_o(cnt_unused)
             , .overflowed_o(overflow)
             );
+*/
 
   always_comb
     begin
       state_n = state_r;
       if (ready_o & v_i) begin
         state_n = eBUSY;
-      end else if ((state_r == eBUSY) & (overflow == 1'b1)) begin
+      end else if ((state_r == eBUSY) & (cnt == max)) begin
         state_n = eDONE;
       end else if (v_o & yumi_i) begin
         state_n = eWAIT;
       end
     end
-  
+
+
   always_ff @(posedge clk_i)
     begin
       if (reset_i)
@@ -68,9 +94,9 @@ module bsg_cgol_ctrl #(
           state_r <= state_n;
     end
 
-  assign update_o = (ready_o & v_i) ? 1'b1 : 1'b0; 
+  assign update_o = ready_o & v_i; 
 
-  assign en_o = state_r == eBUSY ? 1'b1 : 1'b0;
+  assign en_o = (state_r == eBUSY) & (cnt != max);
 
 
 endmodule
